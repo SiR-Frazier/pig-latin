@@ -6,9 +6,20 @@
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Pig Latin Translator</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Pig Latin Translator</h1>
+    <form id="translator">
+      <div class="form-group">
+        <label for="englishWord">Enter a word beginning with a vowel: </label>
+        <input id="englishWord" type="text">
+      </div>
+      <button type="submit" class="btn btn-primary">Translate!</button>
+    </form>
+    <div>
+      <p id="pigpen"></p>
+    </div>
   </body>
 </html>
